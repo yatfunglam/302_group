@@ -502,7 +502,7 @@ class Gui:
             side=tk.LEFT)
         order_id = self.editAreaTable3.get("1.0", END)[0:-1]
         if section == "del_pd" or section == "del_check":
-            tk.Button(self.frameM8, text="-Delete", font=("Helvetica", 20, "bold "), fg="white", bg="dark green",
+            tk.Button(self.frameM8, text="Modify", font=("Helvetica", 20, "bold "), fg="white", bg="dark green",
                       width=8, height=2, command=lambda: self.delete_from_order(order_id)).pack(
                 side=tk.LEFT)
 
